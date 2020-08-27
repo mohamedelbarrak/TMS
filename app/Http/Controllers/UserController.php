@@ -119,7 +119,9 @@ if ($user->situa == 'admin') {
         $user->adresse = $request->input('adresse');
         $user->pays = $request->input('pays');
         $user->ville = $request->input('ville');
-
+if (Auth::user()->id == 1) {
+    $user->situa = "supAdmin";
+}
 
         $user->save();
 
