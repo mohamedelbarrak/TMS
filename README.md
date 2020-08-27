@@ -1,3 +1,8 @@
+The first user can be supAdmin so he must modified her profile
+if (Auth::user()->id == 1) {
+    $user->situa = "supAdmin";
+}
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
