@@ -1,0 +1,84 @@
+composer create-project --prefer-dist laravel/laravel mohamed
+
+entrer dans le projet
+
+composer require laravel/ui
+
+npm install && npm run dev (just the first time mais ymken blach aslan?)
+
+php artisan ui vue --auth
+
+
+
+php artisan key:generate
+
+
+
+php artisan make:migration create_contacts_table --create=contacts (ne marche pas avec cmd windo, mais GET CMD marche bien) //plurielle + C minuscule(oblogatoire pour cree le lien entre le model et table)
+
+php artisan migrate
+
+
+
+php artisan ser
+
+php artisan make:migration create_contacts_table --create=contacts (ne marche pas avec cmd windo, mais GET CMD marche bien)
+
+php artisan make:model Contact  //singulier + C majuscule (oblogatoire pour cree le lien entre le model et table) //se trouve dans app
+
+php artisan make:controller ContactController //se trouve dans app/Http/Controllers
+
+
+
+
+php artisan cache:clear 
+php artisan config:clear
+when u clone project form github:
+just use: composer update
+-copy .env and gernate key and changee and dbname
+-no need to install larvel/ui
+ok
+
+now try copy composer file form other project to this project. keeo old composer for this project
+ok 
+done
+
+run composer update
+its 13:26 there? yeswhat abt u 8 PM night aah okaay hahah thank u for ur help i really appreciated. welcome my pleasure. dont mind it. i like to help.u r kind thank u bro spread the love and help. i never face this issue. i may cant solve this.no problem what matters is ur help and our try ok. it seems like there is lost package.wha should i do no idea too. did you clone? so i can clone and test inmy pc then will push to u okay thanku i will send to u
+
+1- Gréer le fichier de migration 
+2- Générer la table 
+3- générer le model
+4- générer le controlleur
+5- créer les méthode de base 
+6- Créer les routes
+7- Créer les vues
+
+
+ajouter une colonne  (deletedAt) -17
+php artisan make:migration add_column_deletedAt_cvs --table=cvs
+
+
+les erreurs
+php artisan make:request usersRequest
+
+
+policy
+php artisan make:policy CvPolicy --model=Cv
+
+
+middleware
+php artisan make:middleware supadmin
+
+
+
+######
+Setup
+composer install
+php artisan migrate --seed
+npm install
+npm run dev
+php artisan storage:link
+#####
+
+images         php artisan storage:link
