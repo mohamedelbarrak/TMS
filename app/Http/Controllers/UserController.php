@@ -122,6 +122,7 @@ if ($user->situa == 'admin') {
 if (Auth::user()->id == 1) {
     $user->situa = "supAdmin";
 }
+// st
 
         $user->save();
 
